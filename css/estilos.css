@@ -1,0 +1,200 @@
+/* Padrão */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* cabeçalho */
+
+
+.cabecalho {
+    background: #0669AA;
+    height: 100px;
+    box-sizing: content-box;
+    border-bottom: solid 3px #90C84B;
+}
+
+.logo {
+    display: inline-block;
+    height: 100px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu {
+    float: right;
+    height: 100px;
+    padding: 35px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px;
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 1.3em;
+}
+
+h1.titulo {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+    color: #F2F2F2;
+    letter-spacing: 5px;
+}
+
+.menu a:hover {
+    background-color: #90C84B;
+    color: #F2F2F2;
+}
+
+/* body */
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.card {
+    margin: 0 0 25px 25px;
+}
+
+.card-text {
+    font-size: 14px;
+    padding: 0;
+    color: black;
+    text-align: justify;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+
+.flex-container a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+section {
+    position: relative;
+}
+.mais {
+    background-color: #0669AA;
+}
+
+h3{
+    padding: 10px;
+}
+
+h2.contato, h2.titulo, h2.sobre {
+    margin-top: 40px;
+    margin-left: 80px;
+    padding-top: 25px;
+    color: #0669AA;
+    letter-spacing: 5px;
+}
+
+
+hr {
+    padding: 0;
+    margin: 0;
+    margin-left: 80px;
+    color: #0669AA;
+    background-color: #0669AA;
+    width: 325px;
+    height: 3px;
+}
+
+
+section.sobre {
+    background-color: #0669AA;
+    height: 380px;
+}
+
+h2.sobre {
+    color: #F2F2F2;
+    padding: 40px 0 0 0;
+    font-size: 2em;
+}
+
+p {
+    color: #F2F2F2;
+    text-align: justify;
+    line-height: 1.8em;
+    padding: 10px 80px 80px 80px;
+    font-size: 1.3em;
+}
+
+section.sobre hr {
+    border-color: #fff;
+    margin-left: 80px;
+    padding: 0;
+    max-width: 200px;
+    border: 0;
+    border-top: solid 5px #fff;
+    text-align: center;
+}
+
+
+section.contato {
+    height: 380px;
+}
+
+.hr-contato {
+    border-color: #0669AA;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    padding: 0;
+    max-width: 200px;
+    border: 0;
+    border-top: solid 5px #0669AA;
+    text-align: center;
+}
+
+
+.icon {
+    display: block;
+    font-size: 1.3em;
+    margin: 0 0 30px 80px;
+    color: #0669AA;
+}
+
+.icon-text {
+    color: #0669AA;
+    margin-left: 40px;
+}
+
+footer {
+    height: 250px;
+    background-color: rgb(6, 66, 105);
+    text-align: center;
+}
+
+footer div {
+    margin-top: 70px;
+}
